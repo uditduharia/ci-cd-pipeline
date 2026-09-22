@@ -1,4 +1,4 @@
-resource "resource_group_name" "rg" {
+resource "azurerm_resource_group" "rg" {
 
     for_each = var.resourcegrp
 
