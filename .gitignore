@@ -1,0 +1,131 @@
+# =========================
+
+# Terraform
+
+# =========================
+
+# Terraform working directory
+
+.terraform/
+
+# Terraform state files
+
+*.tfstate
+*.tfstate.*
+terraform.tfstate
+terraform.tfstate.*
+
+# Crash logs
+
+crash.log
+crash.*.log
+
+# Terraform plan files
+
+*.tfplan
+*.plan
+
+# Terraform variable files containing secrets
+
+*.tfvars
+*.tfvars.json
+
+# Exception:
+
+# Keep example variable files
+
+!*.tfvars.example
+
+# =========================
+
+# Terraform Lock File
+
+# =========================
+
+# Keep this file committed for provider version consistency
+
+!.terraform.lock.hcl
+
+# =========================
+
+# Azure / Secrets
+
+# =========================
+
+# Environment / secret files
+
+.env
+.env.*
+*.secret
+*.key
+*.pem
+*.pfx
+*.crt
+
+# Azure service principal credentials
+
+azure_credentials.json
+service-principal.json
+sp.json
+
+# =========================
+
+# Azure CLI
+
+# =========================
+
+.azure/
+
+# =========================
+
+# VS Code
+
+# =========================
+
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# =========================
+
+# macOS
+
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS folder attributes
+
+._*
+
+# Spotlight
+
+.Spotlight-V100
+
+# Trash
+
+.Trashes
+
+# =========================
+
+# Logs
+
+# =========================
+
+*.log
+logs/
+
+# =========================
+
+# Backup / Temporary Files
+
+# =========================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+EOF
